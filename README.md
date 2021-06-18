@@ -8,6 +8,7 @@ This Repository is a Demo for Usage of 2 ESP Core to run 2 different task at one
    
   <h3>The Material you need for this Tutorial</h3>
   <li>1 Units of Hibiscus Sense. <b><a href="https://myduino.com/product/myd-036/" target="_blank"> Click here to buy Hibiscus Sense</a></b></li>
+  <li>1 Units of Arduino.</li>
   <li>1 Units of USB Type C Cable.</li>
   <li>1 Units of DHT 22.</li>
   <LI>1 Units of MQ-135 Sensor.</li>
