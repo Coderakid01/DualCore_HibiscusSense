@@ -34,7 +34,7 @@ void setup() {
 
   //create a task that will be executed in the Task1code() function, with priority 1 and executed on core 0
   xTaskCreatePinnedToCore(
-                    Task1code,   /* Task function. */
+                    DataStream,   /* Task function. */
                     "Task1",     /* name of task. */
                     10000,       /* Stack size of task */
                     NULL,        /* parameter of the task */
@@ -45,7 +45,7 @@ void setup() {
 
   //create a task that will be executed in the Task2code() function, with priority 1 and executed on core 1
   xTaskCreatePinnedToCore(
-                    Task2code,   /* Task function. */
+                    SensorRead,   /* Task function. */
                     "Task2",     /* name of task. */
                     10000,       /* Stack size of task */
                     NULL,        /* parameter of the task */
@@ -56,8 +56,8 @@ void setup() {
 }
 
 //CORE 0 for WiFi and Data Upload to Platform Concentration Part
-void Task1code( void * pvParameters ){
-  Serial.print("Task1 running on core ");
+void DataStream( void * pvParameters ){
+  Serial.print("Data Streaming and WiFi running on core ");
   Serial.println(xPortGetCoreID());
 
   WiFi.begin(ssid, pass);
@@ -75,8 +75,8 @@ void Task1code( void * pvParameters ){
 }
 
 //CORE 1 for Sensor Reading Concentration Part (Without any Calibration)
-void Task2code( void * pvParameters ){
-  Serial.print("Task2 running on core ");
+void SensorRead( void * pvParameters ){
+  Serial.print("Sensor Reading running on core ");
   Serial.println(xPortGetCoreID());
 
   for(;;){
