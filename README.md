@@ -6,11 +6,11 @@
   >Demo of using Dual Core Processor of Hibiscus Sense to run 2 different task at one time simultenously.
    
   <h3>The Material used for this DEMO</h3>
-  <li>1 Units of Hibiscus Sense. <b><a href="https://myduino.com/product/myd-036/" target="_blank"> Click here to buy Hibiscus Sense</a></b></li>
-  <li>1 Units of Arduino.</li>
-  <li>1 Units of USB Type C Cable.</li>
-  <li>1 Units of DHT 22.</li>
-  <LI>1 Units of MQ-135 Sensor.</li>
+  <li>1 Unit of Hibiscus Sense. <b><a href="https://myduino.com/product/myd-036/" target="_blank"> Click here to buy Hibiscus Sense</a></b></li>
+  <li>1 Unit of Arduino.</li>
+  <li>1 Unit of USB Type C Cable.</li>
+  <li>1 Unit of DHT 22.</li>
+  <LI>1 Unit of MQ-135 Sensor.</li>
   
   </br>
   
