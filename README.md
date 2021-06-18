@@ -1,7 +1,6 @@
 # DualCore_HibiscusSense
-This Repository is a Demo for Usage of 2 ESP Core to run 2 different task at one time
+# This Repository is a Demo for Usage of 2 ESP Core to run 2 different task at one time
 
-<h1> Wireless Sensor Network Practice/Tutorial by using ESP Now for the Hibiscus Sense to IoT Platform FAVORIOT </h1>
   <p align="center"><img src="https://github.com/Coderakid01/Medias/blob/main/poster1.jpg" width="900"></a></p>
   
   >Demo of using Dual Core Processor of Hibiscus Sense to run 2 different task at one time simultenously.
