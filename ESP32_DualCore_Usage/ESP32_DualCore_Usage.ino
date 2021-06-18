@@ -35,7 +35,7 @@ void setup() {
   //create a task that will be executed in the Task1code() function, with priority 1 and executed on core 0
   xTaskCreatePinnedToCore(
                     DataStream,   /* Task function. */
-                    "Task1",     /* name of task. */
+                    "Data Streaming and WiFi Process",     /* name of task. */
                     10000,       /* Stack size of task */
                     NULL,        /* parameter of the task */
                     1,           /* priority of the task */
@@ -46,7 +46,7 @@ void setup() {
   //create a task that will be executed in the Task2code() function, with priority 1 and executed on core 1
   xTaskCreatePinnedToCore(
                     SensorRead,   /* Task function. */
-                    "Task2",     /* name of task. */
+                    "Sensor Reading Concentration (Wihtout Calibration)",     /* name of task. */
                     10000,       /* Stack size of task */
                     NULL,        /* parameter of the task */
                     1,           /* priority of the task */
