@@ -125,32 +125,3 @@ void FAVORIOT () {
 
     http.end();
   }
-
-/* Sensory Calibration Instruction, Still undergoing test, none of them are work properly
-void MQCalibration () {
-
- float sensor_volt;  
- float RS_air; //  Rs in clean air 
- float R0;  // R0 in 1000 ppm LPG (For MQ9 1000ppm is the ideal measurement, according to DATASHEET)
- float sensorValue; 
-//Average   
-   for(int x = 0 ; x < 100 ; x++) 
- { 
-    sensorValue = sensorValue + analogRead(34); 
-    //sensorValue = sensorValue + analogRead(35); 
-    //sensorValue = sensorValue + analogRead(33); 
- } 
- sensorValue = sensorValue/100.0; 
- 
- sensor_volt = (sensorValue/1024)*5.0; 
- RS_air = (5.0-sensor_volt)/sensor_volt;
- R0 = RS_air/9.9; // According to MQ9 datasheet table 
- Serial.print("sensor_volt = "); 
- Serial.print(sensor_volt); 
- Serial.println("V");
- Serial.print("R0 = "); 
- Serial.println(R0); 
- delay(1000); 
-
-  }
-*/
