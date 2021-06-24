@@ -69,7 +69,29 @@ void DataStream( void * pvParameters ){
 
   for(;;){
 
-  FAVORIOT(); //Call FAVORIOT Function to execute the Data Stream Command
+    String json = "{\"device_developer_id\":\"" + String(device_developer_id) + "\",\"data\":{";
+    
+    json += "\"Air_Quality\":\"" + String(MQ135) + "\",";
+    json += "\"Humidity\":\"" + String(Humidity) + "\"";
+    
+    json += "}}";
+    HTTPClient http;
+
+    http.begin("https://apiv2.favoriot.com/v2/streams");
+    http.addHeader("Content-Type", "application/json");
+    http.addHeader("apikey", "YOUR_API_KEY");
+
+    int httpCode = http.POST(json);
+
+    if(httpCode > 0) {
+      String payload = http.getString();
+      Serial.println(payload);
+    }
+    else {
+      Serial.println("HTTP Error!");
+    }
+
+    http.end();
   delay (1000);
   } 
 }
@@ -97,31 +119,3 @@ void SensorRead( void * pvParameters ){
 void loop() {
   
 }
-
-// FAVORIOT Function to stream the data to The Platform
-void FAVORIOT () {
-
-    String json = "{\"device_developer_id\":\"" + String(device_developer_id) + "\",\"data\":{";
-    
-    json += "\"Air_Quality\":\"" + String(MQ135) + "\",";
-    json += "\"Humidity\":\"" + String(Humidity) + "\"";
-    
-    json += "}}";
-    HTTPClient http;
-
-    http.begin("https://apiv2.favoriot.com/v2/streams");
-    http.addHeader("Content-Type", "application/json");
-    http.addHeader("apikey", "YOUR_API_KEY");
-
-    int httpCode = http.POST(json);
-
-    if(httpCode > 0) {
-      String payload = http.getString();
-      Serial.println(payload);
-    }
-    else {
-      Serial.println("HTTP Error!");
-    }
-
-    http.end();
-  }
