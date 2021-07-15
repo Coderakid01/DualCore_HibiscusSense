@@ -7,10 +7,7 @@
    
   <h3>The Material used for this DEMO</h3>
   <li>1 Unit of Hibiscus Sense. <b><a href="https://myduino.com/product/myd-036/" target="_blank"> Click here to buy Hibiscus Sense</a></b></li>
-  <li>1 Unit of Arduino.</li>
   <li>1 Unit of USB Type C Cable.</li>
-  <li>1 Unit of DHT 22.</li>
-  <LI>1 Unit of MQ-135 Sensor.</li>
   
   </br>
   
@@ -24,8 +21,6 @@
   
   <ol>
   <li>ESP32 Arduino Library <b><a href="https://github.com/espressif/arduino-esp32" target="_blank"> Please refer this guide </a></b></li>
-  <li>DHT 22 Library <b><a href="https://github.com/adafruit/DHT-sensor-library" target="_blank"> Please refer this guide </a></b></li>
-  <li>MQ Unified Sensor <b><a href="https://github.com/miguel5612/MQSensorsLib" target="_blank"> Please refer this guide </a></b></li>
   </ol>
   
   ## Circuit Diagram
