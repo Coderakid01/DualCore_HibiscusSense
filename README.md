@@ -21,7 +21,7 @@
   </br>
   
   
-<h3>Credits for these awesome people for creating this awesome products and also my lecturers for their guidance! 😎</h3>
+<h3>Credits for these awesome people for creating this awesome products and also my lecturers for their guidance!</h3>
 
 <ul>
   <li> My Awesome Lecturers from KKTMPJ 😎 </li>
