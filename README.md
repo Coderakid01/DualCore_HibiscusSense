@@ -6,7 +6,7 @@
   >Stay Tuned for more updates for this tutorial.
    
   <h3>In this tutorial commonly we will be using this 2 products</h3>
-  <li>Hibiscus Sense. <b><a href="https://myduino.com/product/myd-036/" target="_blank"> Click here to buy Hibiscus Sense</a></b></li>
+  <li>Hibiscus Sense Micorocntrollr. <b><a href="https://myduino.com/product/myd-036/" target="_blank"> Click here to buy Hibiscus Sense</a></b></li>
   <li>IoT Platform FAVORIOT. <b><a href="https://platform.favoriot.com/v2/login" target="_blank"> Click here to register IoT Platform FAVORIOT</a></b></li>
   
   </br>
