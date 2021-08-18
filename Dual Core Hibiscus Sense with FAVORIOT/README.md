@@ -1,7 +1,7 @@
 
 # Basic RTOS Dual Core Hibiscus Sense with FAVORIOT
 <h3> Dual Core function to run 2 different task simultaneously </h3>
-  <p align="center"><img src="https://github.com/Coderakid01/Medias/blob/main/poster3.jpg" width="900"></a></p>
+  <p align="center"><img src="https://github.com/Coderakid01/Medias/blob/main/reference3.jpg" width="900"></a></p>
   
   </br>
   >This is Demo for Dual Core processing power capability where we will run 2 task at one time. Please aware this tutorial aren't complete (yet)
