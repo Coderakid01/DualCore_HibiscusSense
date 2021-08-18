@@ -1,7 +1,7 @@
 # FAVORIOT with Hibiscus Sense Tutorial Collection
 # This Repository is solely dedicated for IoT Tutorial Collection by using Hibiscus Sense as the Microcontroller and FAVORIOT as the IoT Platform
 
-  <p align="center"><img src="https://github.com/Coderakid01/Medias/blob/main/poster1.jpg" width="900"></a></p>
+  <p align="center"><img src="https://github.com/Coderakid01/Medias/blob/main/coverpage1.jpg" width="900"></a></p>
   
   >Stay Tuned for more updates for this tutorial.
    
