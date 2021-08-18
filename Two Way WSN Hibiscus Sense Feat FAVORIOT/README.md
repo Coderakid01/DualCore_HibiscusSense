@@ -1,7 +1,7 @@
 
 # WSN Hibiscus Sense Featuring IoT Platform Favoriot (Two Way Communication)
 <h3> Wireless Sensor Network Practice/Tutorial by using ESP Now for the Hibiscus Sense to IoT Platform FAVORIOT </h3>
-  <p align="center"><img src="https://github.com/Coderakid01/Medias/blob/main/poster1.jpg" width="900"></a></p>
+<p align="center"><img src="https://github.com/Coderakid01/Medias/blob/main/poster10.jpg" width="900"></a></p>
   
   </br>
   >In this tutorial we will make a project Wireless Sensor Network by using the builtin sensors with 2 Unit of Hibiscus Sense along with IoT Cloud Platform FAVORIOT. The received Data by the sender will be upload to the IoT Platform FAVORIOT
@@ -30,7 +30,6 @@
 
   ## Circuit Diagram
 
-<p align="center"><img src="https://github.com/Coderakid01/Medias/blob/main/poster10.jpg" width="900"></a></p>
 <p align="center"><img src="https://github.com/Coderakid01/Medias/blob/main/reference2.jpg" width="900"></a></p>  
   
 <h3>Credits for these awesome people for creating this awesome products and also my lecturers! 😎</h3>
