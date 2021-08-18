@@ -1,6 +1,6 @@
 # WSN Hibiscus Sense Featuring IoT Platform Favoriot (One To One Communication/ One Way Communication)
 <h3> Wireless Sensor Network Practice/Tutorial by using ESP Now for the Hibiscus Sense to IoT Platform FAVORIOT </h3>
-  <p align="center"><img src="https://github.com/Coderakid01/Medias/blob/main/poster1.jpg" width="900"></a></p>
+<p align="center"><img src="https://github.com/Coderakid01/Medias/blob/main/poster2.jpg" width="900"></a></p>
  
   <h3>Youtube Link video for the Tutorial</h3>
   <li><b><a href="https://youtu.be/4UwKAnQkTVM" target="_blank"> Single Hop WSN using Hibiscus Sense featuring FAVORIOT </a></b></li>
@@ -35,7 +35,7 @@
 
   ## Circuit Diagram
 
-<p align="center"><img src="https://github.com/Coderakid01/Medias/blob/main/poster2.jpg" width="900"></a></p>
+
 <p align="center"><img src="https://github.com/Coderakid01/Medias/blob/main/reference1.jpg" width="900"></a></p>  
   
 <h3>Credits for these awesome people for creating this awesome products and also my lecturers! 😎</h3>
