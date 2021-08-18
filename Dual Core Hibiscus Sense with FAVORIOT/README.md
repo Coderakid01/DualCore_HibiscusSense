@@ -1,7 +1,7 @@
 
 # Basic RTOS Dual Core Hibiscus Sense with FAVORIOT
 <h3> Dual Core function to run 2 different task simultaneously </h3>
-  <p align="center"><img src="https://github.com/Coderakid01/Medias/blob/main/poster2.jpg" width="900"></a></p>
+  <p align="center"><img src="https://github.com/Coderakid01/Medias/blob/main/poster3.jpg" width="900"></a></p>
   
   </br>
   >This is Demo for Dual Core processing power capability where we will run 2 task at one time. Please aware this tutorial aren't complete (yet)
@@ -23,11 +23,6 @@
   <li>ESP32 Arduino Library <b><a href="https://github.com/espressif/arduino-esp32" target="_blank"> Please refer this guide </a></b></li>
   <li>Adafruit BME280</li>
   </ol>
-
-
-  ## System Diagram
-
-<p align="center"><img src="https://github.com/Coderakid01/Medias/blob/main/reference3.jpg" width="900"></a></p>  
   
 <h3>Credits for these awesome people for creating this awesome products and also my lecturers for the guidance!</h3>
 
